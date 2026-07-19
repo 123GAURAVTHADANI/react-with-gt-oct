@@ -1,9 +1,5 @@
-function Header(props) {
-  return (
-    <h1>
-      Header {props.name} {props.age}
-    </h1>
-  );
+function Header({ counter }) {
+  return <h1>Header Child {counter}</h1>;
 }
 export default Header;
 
